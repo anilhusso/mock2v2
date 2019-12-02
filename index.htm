@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>coin</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="col-sm" style="margin-left: -200px;">
+        <h1 class="badge badge-info" style="font-size: 30px;">Rest service</h1>
+        <h2 style="color: blue;">Show all coins</h2>
+        <button id="getAllButton" class="btn btn-primary">Get all</button>
+        <div id="getAll" class="jumbotron"></div>
+
+        <div class="col-sm" style="margin-left: -200px;">
+          <h1 class="badge badge-info" style="font-size: 30px;">Show one</h1>
+          <h2 style="color: blue;">Show one coins</h2>
+          <input id="showbyid" placeholder="showbyid">
+          <button id="getonecoin" class="btn btn-primary">getonecoin</button>
+          <div id="getAll" class="jumbotron"></div>
+        
+
+        
+
+
+        <h2 style="margin-top: 30px; color: blue;">Fjern en coin</h2>
+        <input id="deleteID" placeholder="Type an ID">
+        <button id="deleteButton" class="btn btn-primary">Remove</button>
+        <div id="deletedCoinOutput"></div>
+
+<h3 style="margin-top: 30px; color: blue;">Tilføj coin</h3>
+<input id="addcoin" placeholder="skriv mønt type">
+<button id="addcoin" class="btn btn-primary">Add</button>
+
+    </div>
+
+  </div>
+  
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="bundle.js"></script>
+</body>
+</html>
